@@ -4,6 +4,8 @@ import sys
 def main():
 
     print ('Welcome to the Plushie Factory Chatbot!')
+    assist = input('How may I help you?')
+    #i want to make a plushie (continue script) or exit (goodbye message)
 name = input('What will you name your plushie? ')
 age = input('Wow! ' + name + ' is such a great name! How old is ' + name + '? ')
 print (name + ' is ' + age + ' years old. Got it!')
